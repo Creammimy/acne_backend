@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # โหลดโมเดล
-model = YOLO("E:/acne_backend/best.pt")  # แก้ path ตามโมเดลคุณ
+model = YOLO("best.pt")  # แก้ path ตามโมเดลคุณ
 
 # สร้างโฟลเดอร์ชั่วคราว
 os.makedirs("temp_images", exist_ok=True)
