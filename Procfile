@@ -1,3 +1,1 @@
-web: uvicorn main:app --host=0.0.0.0 --port=8000
-
-git init
+web: uvicorn main:app --host=0.0.0.0 --port=800
